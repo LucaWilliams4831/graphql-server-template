@@ -1,0 +1,36 @@
+{
+  "name": "@apollo/composition",
+  "version": "2.4.2",
+  "description": "Apollo Federation composition utilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollographql/federation.git",
+    "directory": "composition-js/"
+  },
+  "keywords": [
+    "graphql",
+    "federation",
+    "apollo",
+    "composition"
+  ],
+  "author": "Apollo <packages@apollographql.com>",
+  "license": "SEE LICENSE IN ./LICENSE",
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@apollo/federation-internals": "2.4.2",
+    "@apollo/query-graphs": "2.4.2"
+  },
+  "peerDependencies": {
+    "graphql": "^16.5.0"
+  }
+}
